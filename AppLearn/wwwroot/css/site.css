@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.intro {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
