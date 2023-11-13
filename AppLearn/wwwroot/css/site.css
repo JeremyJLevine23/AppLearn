@@ -2,6 +2,10 @@ html {
   font-size: 14px;
 }
 
+.navbar{
+    margin-bottom: 0px !important;
+}
+
 .img-wrapper{
     max-width: 100%;
     height: 65vw;
@@ -43,11 +47,19 @@ body {
   margin-bottom: 60px;
 }
 
-.intro {
-    margin-top: 10%;
-    margin-bottom: 10%;
+.whiteBackground {
+    width: 50vw;
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 5px 10px 5px black;
 }
 
+.centerText{
+    margin: auto;
+}
 .gameIntro{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -59,4 +71,30 @@ body {
 
 .card{
     margin: 0 0.5em;
+}
+
+.welcomeSection {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-color: black;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    background: url("https://img.freepik.com/free-vector/hand-drawn-colorful-science-education-background_23-2148490027.jpg"); /*linear-gradient(90deg, rgba(0,128,128,1) 0%, rgba(0,0,0,0) 50%, rgba(0,128,128,1) 100%);*/
+    /*background-blend-mode: screen, difference, darken;*/
+    /*background-color: #9c1f57;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bodyContainer{
+    max-width: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.notFullContainer{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
