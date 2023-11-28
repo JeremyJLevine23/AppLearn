@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: 'Oswald';
+}
+p{
+    font-family:'Quicksand';
 }
 
 .navbar{
     margin-bottom: 0px !important;
+    border-color: black !important;
+    border-bottom: solid !important;
 }
 
 .img-wrapper{
@@ -22,25 +35,6 @@ html {
   html {
     font-size: 16px;
   }
-
-  .carousel-inner{
-      display: flex;
-  }
-
-  .carousel-item{
-      display: block;
-      margin-right: 0;
-      flex: 0 0 calc(100%/3);
-  }
-
-  .img-wrapper{
-      height: 23vw;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
 }
 
 body {
@@ -48,8 +42,7 @@ body {
 }
 
 .whiteBackground {
-    width: 50vw;
-    height: 10vh;
+    padding: 1vh 2vw 1vh 2vw;
     background-color: white;
     text-align: center;
     display: flex;
@@ -65,26 +58,22 @@ body {
     margin-bottom: 5%;
 }
 
-.carousel-inner{
-    padding: 1em;
-}
-
-.card{
-    margin: 0 0.5em;
-}
 
 .welcomeSection {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 25vh;
     border-color: black;
     border-bottom-style: solid;
     border-top-style: solid;
-    background: url("https://img.freepik.com/free-vector/hand-drawn-colorful-science-education-background_23-2148490027.jpg"); /*linear-gradient(90deg, rgba(0,128,128,1) 0%, rgba(0,0,0,0) 50%, rgba(0,128,128,1) 100%);*/
-    /*background-blend-mode: screen, difference, darken;*/
-    /*background-color: #9c1f57;*/
+    background: url("https://img.freepik.com/free-vector/hand-drawn-colorful-science-education-background_23-2148489182.jpg?w=2000"),hsla(183, 62%, 0%, 0.44);
+    background-position: bottom;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+.carousel-caption {
+    background: hsla(183, 62%, 0%, 0.44);
 }
 
 .bodyContainer{
